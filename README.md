@@ -3,11 +3,11 @@ VanHack Developer Test
 
 The app was developed applying MVC and its workflow works like the diagram below:
 
-						                  +----> HTML
-					                  	|	      |
-			User <----> Control <---|     Model
-						                  |       |
-						                  +----> JSON
+                        +----> HTML
+                        |       |
+User <----> Control <---|     Model
+                        |       |
+                        +----> JSON
 
 An user always makes a request to the Control. The Control checks the URL to choose an executor, an entity and an action. 
 
